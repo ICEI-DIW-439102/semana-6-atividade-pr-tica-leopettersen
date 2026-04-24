@@ -1,12 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FutNews</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+
+  <header class="fn-header">
+    <h1>FutNews</h1>
+    <p>Seu portal de notícias sobre o mundo da bola</p>
+  </header>
+  
+  <div class="fn-banner">
+  <img src="images/banner.png" alt="Banner FutNews">
+  </div>
+
+  <nav class="fn-nav" id="nav">
+    <button class="active" onclick="filtrar('todos', this)">Todos</button>
+    <button onclick="filtrar('brasil', this)">Brasil</button>
+    <button onclick="filtrar('champions', this)">Champions</button>
+    <button onclick="filtrar('transferencias', this)">Transferências</button>
+    <button onclick="filtrar('copa', this)">Copa do Mundo</button>
+  </nav>
+
+  <main class="fn-articles" id="articles"></main>
+
+  <footer class="fn-footer">
+    Fontes:
+    <a href="https://www.lance.com.br" target="_blank">Lance!</a> |
+    <a href="https://www.espn.com/soccer/" target="_blank">ESPN</a> |
+    <a href="https://ge.globo.com" target="_blank">GE Globo</a>
+    — Atualizado em 17/04/2026
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
