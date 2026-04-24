@@ -260,7 +260,7 @@ function renderizar() {
             <div class="fn-meta">
               ${n.data} &nbsp;·&nbsp;
               <a href="${n.url}" target="_blank" rel="noopener noreferrer">
-                Leia mais em ${n.fonte} ↗
+                Leia mais em ${n.fonte} <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
               </a>
             </div>
           </div>
