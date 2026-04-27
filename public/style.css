@@ -188,32 +188,6 @@ body {
   text-decoration: underline;
 }
 
-/* Tablet */
-@media (max-width: 768px) {
-  body {
-    padding: 16px;
-  }
-
-  .fn-card {
-    gap: 14px;
-    padding: 14px;
-  }
-
-  .fn-thumb {
-    width: 140px;
-    min-width: 140px;
-    height: 88px;
-  }
-
-  .fn-content h2 {
-    font-size: 18px;
-  }
-
-  .fn-content p {
-    font-size: 14px;
-  }
-}
-
 /* Mobile */
 @media (max-width: 540px) {
   body {
